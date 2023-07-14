@@ -14,7 +14,7 @@ function App() {
           <Route path='/cards' element={<Cards/>} />
           <Route path='/cards/:id' element={<CardDetails />} />
           <Route path='/page4' element={<h1>page4</h1>} />
-          <Route path='*' element={<h1>Not found</h1>} />
+          <Route path='*' element={<div class="hit-the-floor">404<br/>Not Found</div>} />
         </Routes>
     </div>
   );
